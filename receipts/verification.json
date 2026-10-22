@@ -1,0 +1,27 @@
+{
+  "ruff": {
+    "command": "ruff check .",
+    "exit_code": 0,
+    "output": "All checks passed!"
+  },
+  "format": {
+    "command": "ruff format --check .",
+    "exit_code": 0,
+    "output": "9 files already formatted"
+  },
+  "mypy": {
+    "command": "mypy",
+    "exit_code": 0,
+    "output": "Success: no issues found in 3 source files"
+  },
+  "pytest": {
+    "command": "python -m pytest -q",
+    "exit_code": 0,
+    "output": "..................                                                       [100%]\n18 passed in 0.64s"
+  },
+  "build": {
+    "command": "python -m build --no-isolation",
+    "exit_code": 0,
+    "output": "* Getting build dependencies for sdist...\n* Building sdist...\n* Building wheel from sdist\n* Getting build dependencies for wheel...\n* Building wheel...\nSuccessfully built streamdetok-0.1.0.tar.gz and streamdetok-0.1.0-py3-none-any.whl"
+  }
+}
